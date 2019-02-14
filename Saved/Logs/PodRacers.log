@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 02/14/19 17:48:40
+=======
+﻿Log file open, 02/14/19 19:29:14
+>>>>>>> BasicHud
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +14,11 @@ LogInit: Display: Running engine for game: PodRacers
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.297850
+=======
+LogStats: Stats thread started at 0.287059
+>>>>>>> BasicHud
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +102,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.149s to configure plugins.
+LogStreaming: Display: Took  0.091s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,7 +126,7 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1070
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -149,11 +157,16 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.011s to delete old logs.
+=======
+LogStreaming: Display: Took  0.002s to delete old logs.
+>>>>>>> BasicHud
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2019.02.14-16.48.41:266][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2019.02.14-16.48.41:266][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2019.02.14-16.48.41:266][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
@@ -2346,3 +2359,456 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.14-18.27.47:074][421]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2019.02.14-18.27.47:083][421]LogExit: Exiting.
 [2019.02.14-18.27.47:098][421]Log file closed, 02/14/19 19:27:47
+=======
+[2019.02.14-18.29.14:909][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:910][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:917][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.14-18.29.14:917][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.14-18.29.14:918][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.14-18.29.14:918][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-18.29.14:918][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.14-18.29.14:931][  0]LogHAL: Display: Platform has ~ 16 GB [17123753984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.14-18.29.14:932][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.14-18.29.14:932][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.14-18.29.14:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.14-18.29.14:933][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.14-18.29.14:934][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.14-18.29.14:934][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.14-18.29.14:934][  0]LogInit: Computer: DP-COMPUTER
+[2019.02.14-18.29.14:934][  0]LogInit: User: GAME
+[2019.02.14-18.29.14:934][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.14-18.29.14:934][  0]LogInit: High frequency timer resolution =3.328128 MHz
+[2019.02.14-18.29.14:934][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.14-18.29.14:934][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.14-18.29.14:934][  0]LogMemory: Process Physical Memory: 104.25 MB used, 104.25 MB peak
+[2019.02.14-18.29.14:934][  0]LogMemory: Process Virtual Memory: 95.04 MB used, 95.04 MB peak
+[2019.02.14-18.29.14:934][  0]LogMemory: Physical Memory: 6464.62 MB used,  9865.87 MB free, 16330.48 MB total
+[2019.02.14-18.29.14:934][  0]LogMemory: Virtual Memory: 4646.67 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.02.14-18.29.14:958][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.14-18.29.14:958][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.02.14-18.29.15:356][  0]LogStreaming: Display: Took  0.399s to InitEngineTextLocalization.
+[2019.02.14-18.29.15:357][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.14-18.29.15:399][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.14-18.29.15:399][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.14-18.29.15:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-18.29.15:603][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.14-18.29.15:695][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.02.14-18.29.15:695][  0]LogD3D11RHI:       8088/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.14-18.29.15:698][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.14-18.29.15:698][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.14-18.29.15:698][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.14-18.29.15:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.14-18.29.15:706][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.14-18.29.15:707][  0]LogWindows: EnumDisplayDevices:
+[2019.02.14-18.29.15:707][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.02.14-18.29.15:707][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.02.14-18.29.15:707][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.14-18.29.15:708][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.14-18.29.15:708][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.14-18.29.15:708][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.02.14-18.29.15:708][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.02.14-18.29.15:708][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.02.14-18.29.15:708][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.02.14-18.29.15:752][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.14-18.29.15:765][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.14-18.29.16:099][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.14-18.29.16:110][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.14-18.29.16:122][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.14-18.29.16:138][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.14-18.29.16:150][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.14-18.29.16:162][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.14-18.29.16:177][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.14-18.29.16:190][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.14-18.29.16:197][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:269][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.14-18.29.16:271][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.14-18.29.16:329][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-18.29.16:329][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.14-18.29.16:350][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-18.29.16:350][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.14-18.29.16:361][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.14-18.29.16:373][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.14-18.29.16:394][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.14-18.29.16:408][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.14-18.29.16:449][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.14-18.29.16:449][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.14-18.29.16:449][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.14-18.29.16:508][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Intermediate/Shaders/WorkingDirectory/11956/).
+[2019.02.14-18.29.16:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GAME/AppData/Local/Temp/UnrealShaderWorkingDir/91FD8D7C4ED2C2FDB34B18BD93304B42/'.
+[2019.02.14-18.29.16:511][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.14-18.29.16:511][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.14-18.29.16:511][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.14-18.29.17:018][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.14-18.29.17:073][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/GAME/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.14-18.29.17:073][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GAME/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.14-18.29.17:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.14-18.29.17:074][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.14-18.29.17:074][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.14-18.29.17:074][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.14-18.29.17:087][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.14-18.29.17:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.14-18.29.17:087][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.14-18.29.17:099][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GAME/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.14-18.29.17:099][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.14-18.29.17:099][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.14-18.29.17:123][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.14-18.29.17:124][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.14-18.29.17:125][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.14-18.29.17:215][  0]LogAssetRegistry: FAssetRegistry took 0.0336 seconds to start up
+[2019.02.14-18.29.17:544][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.14-18.29.17:695][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.14-18.29.17:699][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.14-18.29.17:700][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.14-18.29.17:700][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.14-18.29.17:700][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.14-18.29.17:713][  0]LogNetVersion: PodRacers 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1787698366)
+[2019.02.14-18.29.18:224][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.055873 seconds
+[2019.02.14-18.29.18:230][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.14-18.29.18:230][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.02.14-18.29.18:230][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.14-18.29.19:186][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.14-18.29.19:200][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.14-18.29.19:909][  0]SourceControl: Source control is disabled
+[2019.02.14-18.29.19:909][  0]SourceControl: Source control is disabled
+[2019.02.14-18.29.19:911][  0]SourceControl: Source control is disabled
+[2019.02.14-18.29.19:912][  0]SourceControl: Source control is disabled
+[2019.02.14-18.29.20:072][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.14-18.29.20:138][  0]LogOcInput: OculusInput pre-init called
+[2019.02.14-18.29.20:268][  0]LogEngine: Initializing Engine...
+[2019.02.14-18.29.20:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.14-18.29.20:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-18.29.20:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-18.29.20:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-18.29.20:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-18.29.20:492][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.14-18.29.20:508][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.14-18.29.20:576][  0]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-18.29.20:593][  0]LogInit: FAudioDevice initialized.
+[2019.02.14-18.29.20:593][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.14-18.29.20:787][  0]LogDerivedDataCache: Saved boot cache 0.19s 71MB C:/Users/GAME/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.14-18.29.20:802][  0]LogInit: Texture streaming: Enabled
+[2019.02.14-18.29.20:819][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.14-18.29.20:832][  0]LogInit: Transaction tracking system initialized
+[2019.02.14-18.29.20:855][  0]BlueprintLog: New page: Editor Load
+[2019.02.14-18.29.20:936][  0]LocalizationService: Localization service is disabled
+[2019.02.14-18.29.21:436][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GAME/Documents/Unreal Projects/PodRacers/Content/' took 0.02s
+[2019.02.14-18.29.21:436][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.14-18.29.21:436][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.14-18.29.21:436][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.14-18.29.21:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.14-18.29.21:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.14-18.29.21:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.14-18.29.21:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.14-18.29.21:580][  0]SourceControl: Source control is disabled
+[2019.02.14-18.29.21:580][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.14-18.29.21:582][  0]LightingResults: New page: Lighting Build
+[2019.02.14-18.29.21:585][  0]MapCheck: New page: Map Check
+[2019.02.14-18.29.21:585][  0]LightingResults: New page: Lighting Build
+[2019.02.14-18.29.22:075][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.14-18.29.22:089][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.14-18.29.22:113][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.14-18.29.22:113][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2019.02.14-18.29.22:113][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.533
+[2019.02.14-18.29.22:205][  0]LogCollectionManager: Loaded 0 collections in 0.002238 seconds
+[2019.02.14-18.29.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GAME/Documents/Unreal Projects/PodRacers/Saved/Collections/' took 0.01s
+[2019.02.14-18.29.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GAME/Documents/Unreal Projects/PodRacers/Content/Developers/GAME/Collections/' took 0.01s
+[2019.02.14-18.29.22:249][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GAME/Documents/Unreal Projects/PodRacers/Content/Collections/' took 0.01s
+[2019.02.14-18.29.22:249][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.14-18.29.22:259][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2651 classes and 620 folders.
+[2019.02.14-18.29.22:270][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.14-18.29.22:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:316][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:319][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:321][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:324][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:331][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:334][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:338][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:340][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:342][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:344][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:346][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:352][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:356][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.14-18.29.22:448][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.14-18.29.22:468][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.29.22:475][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.29.22:483][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.29.22:490][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.29.22:498][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.14-18.29.22:514][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.14-18.29.22:517][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.14-18.29.22:520][  0]LogSlate: Took 0.001349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.14-18.29.22:615][  0]LogRenderer: Reallocating scene render targets to support 884x924 Format 10 NumSamples 1 (Frame:1).
+[2019.02.14-18.29.22:767][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.02.14-18.29.22:767][  0]LogLoad: (Engine Initialization) Total time: 9.55 seconds
+[2019.02.14-18.29.22:767][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.14-18.29.22:777][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.14-18.29.22:834][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.14-18.29.22:861][  0]LogSlate: Took 0.001061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.14-18.29.22:982][  2]LogAssetRegistry: Asset discovery search completed in 5.7916 seconds
+[2019.02.14-18.29.22:984][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.14-18.29.22:984][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.02.14-18.30.28:164][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.14-18.30.34:732][949]LogAIModule: Creating AISystem for world HUD
+[2019.02.14-18.30.34:818][949]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/Hud/HUD.HUD
+[2019.02.14-18.30.34:841][949]Cmd: MAP LOAD FILE="../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.14-18.30.34:841][949]LightingResults: New page: Lighting Build
+[2019.02.14-18.30.34:842][949]LoadErrors: New page: Loading map: HUD.umap
+[2019.02.14-18.30.34:843][949]MapCheck: New page: Map Check
+[2019.02.14-18.30.34:843][949]LightingResults: New page: Lighting Build
+[2019.02.14-18.30.35:831][949]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.14-18.30.35:877][949]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.14-18.30.35:878][949]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.214ms to complete.
+[2019.02.14-18.30.35:878][949]LogFileHelpers: Loading map 'HUD' took 1.037
+[2019.02.14-18.30.36:482][ 12]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.14-18.30.36:496][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
+[2019.02.14-18.30.36:496][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.14-18.30.36:497][ 12]PIE: New page: PIE session: HUD (Feb 14, 2019, 8:30:36 PM)
+[2019.02.14-18.30.36:509][ 12]LogPlayLevel: Creating play world package: /Game/Scenes/Hud/UEDPIE_0_HUD
+[2019.02.14-18.30.37:121][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.611502s)
+[2019.02.14-18.30.37:121][ 12]LogAIModule: Creating AISystem for world HUD
+[2019.02.14-18.30.37:122][ 12]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2019.02.14-18.30.37:122][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Hud/HUD.HUD to /Game/Scenes/Hud/UEDPIE_0_HUD.HUD (0.612593s)
+[2019.02.14-18.30.37:155][ 12]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.14-18.30.37:165][ 12]LogInit: FAudioDevice initialized.
+[2019.02.14-18.30.37:171][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.30.37:215][ 12]LogLoad: Game class is 'RaceGameMode_C'
+[2019.02.14-18.30.37:240][ 12]LogWorld: Bringing World /Game/Scenes/Hud/UEDPIE_0_HUD.HUD up for play (max tick rate 0) at 2019.02.14-19.30.37
+[2019.02.14-18.30.37:241][ 12]LogWorld: Bringing up level for play took: 0.024652
+[2019.02.14-18.30.37:260][ 12]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.02.14-18.30.37:268][ 12]PIE: Play in editor start time for /Game/Scenes/Hud/UEDPIE_0_HUD 0.15
+[2019.02.14-18.30.37:268][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
+[2019.02.14-18.30.37:285][ 12]LogRenderer: Reallocating scene render targets to support 1292x924 Format 10 NumSamples 1 (Frame:1).
+[2019.02.14-18.30.41:907][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
+[2019.02.14-18.30.41:907][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.14-18.30.41:922][550]LogSlate: Window 'PodRacers Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.14-18.30.41:964][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.14-18.30.41:964][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
+[2019.02.14-18.30.42:033][551]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.14-18.30.43:484][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Hud/HUD" FILE="../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.14-18.30.46:218][721]LogSavePackage: Moving '../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Saved/HUD2C3EDC2A475479017EEBCE85FF6482BC.tmp' to '../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap'
+[2019.02.14-18.30.46:261][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Hud/HUD_BuiltData" FILE="../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD_BuiltData.uasset" SILENT=true
+[2019.02.14-18.30.49:568][721]LogSavePackage: Moving '../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Saved/HUD_BuiltData2D62BD3E41165D81631C65BC7E2795ED.tmp' to '../../../../../../Users/GAME/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD_BuiltData.uasset'
+>>>>>>> BasicHud
