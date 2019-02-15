@@ -1,4 +1,4 @@
-﻿Log file open, 02/14/19 19:33:39
+﻿Log file open, 02/15/19 20:41:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: PodRacers
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.324611
+LogStats: Stats thread started at 0.304321
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.329s to configure plugins.
+LogStreaming: Display: Took  0.136s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,979 +149,462 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:794][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.02.14-18.33.39:794][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.02.14-18.33.39:795][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:795][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:803][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.14-18.33.39:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.14-18.33.39:804][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.14-18.33.39:804][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.14-18.33.39:804][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.14-18.33.39:824][  0]LogHAL: Display: Platform has ~ 8 GB [8525651968 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.14-18.33.39:824][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.02.14-18.33.39:824][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.14-18.33.39:825][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.02.14-18.33.39:825][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.02.14-18.33.39:826][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.02.14-18.33.39:826][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
-[2019.02.14-18.33.39:827][  0]LogInit: Computer: DESKTOP-44G0LU4
-[2019.02.14-18.33.39:827][  0]LogInit: User: Jordi
-[2019.02.14-18.33.39:827][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.14-18.33.39:827][  0]LogInit: High frequency timer resolution =3.312642 MHz
-[2019.02.14-18.33.39:827][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.02.14-18.33.39:827][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.14-18.33.39:827][  0]LogMemory: Process Physical Memory: 103.05 MB used, 103.05 MB peak
-[2019.02.14-18.33.39:827][  0]LogMemory: Process Virtual Memory: 89.81 MB used, 89.81 MB peak
-[2019.02.14-18.33.39:827][  0]LogMemory: Physical Memory: 5209.64 MB used,  2921.05 MB free, 8130.70 MB total
-[2019.02.14-18.33.39:827][  0]LogMemory: Virtual Memory: 4646.28 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.02.14-18.33.39:856][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.02.14-18.33.39:857][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.02.14-18.33.40:335][  0]LogStreaming: Display: Took  0.479s to InitEngineTextLocalization.
-[2019.02.14-18.33.40:336][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.14-18.33.40:392][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.14-18.33.40:392][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.14-18.33.40:632][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2019.02.14-18.33.40:632][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.14-18.33.40:734][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2019.02.14-18.33.40:734][  0]LogD3D11RHI:       8031/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.02.14-18.33.40:737][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.14-18.33.40:737][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.14-18.33.40:737][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.14-18.33.40:752][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.14-18.33.40:752][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
-[2019.02.14-18.33.40:752][  0]LogWindows: EnumDisplayDevices:
-[2019.02.14-18.33.40:753][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2019.02.14-18.33.40:753][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
-[2019.02.14-18.33.40:753][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2019.02.14-18.33.40:754][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2019.02.14-18.33.40:754][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.02.14-18.33.40:754][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2019.02.14-18.33.40:754][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.02.14-18.33.40:754][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.02.14-18.33.40:754][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2019.02.14-18.33.40:823][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.14-18.33.40:846][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.02.14-18.33.41:318][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.14-18.33.41:333][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.14-18.33.41:349][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.14-18.33.41:364][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.14-18.33.41:379][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.14-18.33.41:396][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.14-18.33.41:410][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.14-18.33.41:427][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.14-18.33.41:434][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.14-18.33.41:524][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:524][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:525][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.14-18.33.41:526][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.14-18.33.41:589][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.14-18.33.41:589][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.14-18.33.41:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.14-18.33.41:613][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.14-18.33.41:630][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.14-18.33.41:642][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.14-18.33.41:658][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.14-18.33.41:672][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.14-18.33.41:727][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.14-18.33.41:727][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.14-18.33.41:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.14-18.33.41:823][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Intermediate/Shaders/WorkingDirectory/5664/).
-[2019.02.14-18.33.41:823][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordi/AppData/Local/Temp/UnrealShaderWorkingDir/DED8D2FE477F3860F7F7818B2078C821/'.
-[2019.02.14-18.33.41:827][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.14-18.33.41:827][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.14-18.33.41:827][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.14-18.33.42:379][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.14-18.33.42:488][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.14-18.33.42:488][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.02.14-18.33.42:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.14-18.33.42:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.14-18.33.42:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.14-18.33.42:489][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.14-18.33.42:506][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.14-18.33.42:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.14-18.33.42:506][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.02.14-18.33.42:518][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.14-18.33.42:518][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.14-18.33.42:518][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.14-18.33.42:544][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.14-18.33.42:545][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.14-18.33.42:546][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.14-18.33.42:643][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
-[2019.02.14-18.33.43:045][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.14-18.33.43:227][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.14-18.33.43:234][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.14-18.33.43:234][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.14-18.33.43:234][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.14-18.33.43:234][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.14-18.33.43:253][  0]LogNetVersion: PodRacers 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1787698366)
-[2019.02.14-18.33.44:022][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.196513 seconds
-[2019.02.14-18.33.44:030][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.02.14-18.33.44:030][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.02.14-18.33.44:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.14-18.33.45:067][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.14-18.33.45:085][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.14-18.33.45:853][  0]SourceControl: Source control is disabled
-[2019.02.14-18.33.45:854][  0]SourceControl: Source control is disabled
-[2019.02.14-18.33.45:857][  0]SourceControl: Source control is disabled
-[2019.02.14-18.33.45:858][  0]SourceControl: Source control is disabled
-[2019.02.14-18.33.46:064][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.14-18.33.46:184][  0]LogOcInput: OculusInput pre-init called
-[2019.02.14-18.33.46:342][  0]LogEngine: Initializing Engine...
-[2019.02.14-18.33.46:343][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2019.02.14-18.33.46:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.14-18.33.46:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.14-18.33.46:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.14-18.33.46:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.14-18.33.46:651][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.14-18.33.46:683][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.14-18.33.46:823][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.14-18.33.46:849][  0]LogInit: FAudioDevice initialized.
-[2019.02.14-18.33.46:849][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.14-18.33.47:055][  0]LogDerivedDataCache: Saved boot cache 0.21s 71MB C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.02.14-18.33.47:075][  0]LogInit: Texture streaming: Enabled
-[2019.02.14-18.33.47:107][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.14-18.33.47:128][  0]LogInit: Transaction tracking system initialized
-[2019.02.14-18.33.47:173][  0]BlueprintLog: New page: Editor Load
-[2019.02.14-18.33.47:313][  0]LocalizationService: Localization service is disabled
-[2019.02.14-18.33.47:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/' took 0.03s
-[2019.02.14-18.33.47:949][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.14-18.33.47:949][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.14-18.33.47:949][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.14-18.33.47:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.14-18.33.47:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.14-18.33.47:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.14-18.33.47:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.14-18.33.48:139][  0]SourceControl: Source control is disabled
-[2019.02.14-18.33.48:139][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.14-18.33.48:140][  0]LightingResults: New page: Lighting Build
-[2019.02.14-18.33.48:146][  0]MapCheck: New page: Map Check
-[2019.02.14-18.33.48:146][  0]LightingResults: New page: Lighting Build
-[2019.02.14-18.33.48:612][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.02.14-18.33.48:631][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.14-18.33.48:662][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.14-18.33.48:662][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
-[2019.02.14-18.33.48:663][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.523
-[2019.02.14-18.33.48:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.33.48:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.33.48:816][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.33.48:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.33.48:842][  0]LogCollectionManager: Loaded 0 collections in 0.003145 seconds
-[2019.02.14-18.33.48:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Collections/' took 0.01s
-[2019.02.14-18.33.48:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Developers/Jordi/Collections/' took 0.00s
-[2019.02.14-18.33.48:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Collections/' took 0.00s
-[2019.02.14-18.33.48:863][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.02.14-18.33.48:873][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2651 classes and 620 folders.
-[2019.02.14-18.33.48:882][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.14-18.33.48:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:886][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:888][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:889][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:889][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:891][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:892][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:893][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:894][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:895][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:896][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:897][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:899][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:900][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:900][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:901][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.02.14-18.33.48:952][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.02.14-18.33.48:962][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.02.14-18.33.49:050][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.14-18.33.49:053][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.14-18.33.49:060][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.14-18.33.49:154][  0]LogRenderer: Reallocating scene render targets to support 1188x636 Format 10 NumSamples 1 (Frame:1).
-[2019.02.14-18.33.49:441][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.14-18.33.49:441][  0]LogLoad: (Engine Initialization) Total time: 12.40 seconds
-[2019.02.14-18.33.49:441][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.14-18.33.49:451][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.14-18.33.49:516][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.14-18.33.49:571][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/' took 0.10s
-[2019.02.14-18.33.50:492][ 75]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.14-18.33.53:587][382]LogAssetRegistry: Asset discovery search completed in 10.9677 seconds
-[2019.02.14-18.33.53:589][382]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.14-18.33.53:589][382]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
-[2019.02.14-18.33.54:615][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.14-18.33.57:874][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:875][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Blueprints/MeshTesting.uasset.
-[2019.02.14-18.33.57:875][812]LoadErrors: Error: /Game/Blueprints/MeshTesting : Can't find file for asset. /Game/Sprites/hud
-[2019.02.14-18.33.57:876][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:876][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Blueprints/MeshTesting.uasset.
-[2019.02.14-18.33.57:880][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:880][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap.
-[2019.02.14-18.33.57:881][812]LoadErrors: Error: /Game/Scenes/Levels/BigTerrainTesting : Can't find file for asset. /Game/Sprites/hud
-[2019.02.14-18.33.57:881][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:881][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap.
-[2019.02.14-18.33.57:881][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:881][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap.
-[2019.02.14-18.33.57:883][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:883][812]LoadErrors: Failed to load /Game/Sprites/hud.hud_C Referenced by K2Node_CreateWidget_0
-[2019.02.14-18.33.57:883][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap.
-[2019.02.14-18.33.57:883][812]LogLinker: Warning: Can't find file '/Game/Sprites/hud'
-[2019.02.14-18.33.57:883][812]LogLinker: Warning: Can't find file for asset '/Game/Sprites/hud' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap.
-[2019.02.14-18.33.57:899][812]LogBlueprint: Error: [Compiler MeshTesting] Spawn node  Create Widget  must have a class specified.
-[2019.02.14-18.33.57:908][812]LogBlueprint: Warning: [Compiler MeshTesting] [0020.87] Compile of MeshTesting failed. 1 Fatal Issue(s) 0 Warning(s) [in 15 ms] (/Game/Blueprints/MeshTesting.MeshTesting)
-[2019.02.14-18.33.58:468][812]LogTexture: Display: Building textures: T_NoiseNormal_81 (BC5, 1024X1024)
-[2019.02.14-18.33.58:568][812]LogTexture: Display: Building textures: HexaShield_TopRing2_Normals (BGRA8, 50X91)
-[2019.02.14-18.33.58:568][812]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
-[2019.02.14-18.33.58:568][812]LogTexture: Display: Building textures: HexaShield_TopRing2 (RGBA16F, 50X91)
-[2019.02.14-18.33.58:568][812]LogTexture: Display: Building textures: T_MFTriSpark_01 (DXT1, 2048X2048)
-[2019.02.14-18.33.58:568][812]LogStaticMesh: Building static mesh SM_MuzzleTriSpark_01...
-[2019.02.14-18.33.58:577][812]LogStaticMesh: Built static mesh [0.01s] /Game/Particles/AssetsForParticles/SM_MuzzleTriSpark_01.SM_MuzzleTriSpark_01
-[2019.02.14-18.33.58:581][812]LogStaticMesh: Building static mesh SM_MuzzleStar_01...
-[2019.02.14-18.33.58:582][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_MuzzleStar_01.SM_MuzzleStar_01
-[2019.02.14-18.33.58:585][812]LogStaticMesh: Building static mesh SM_MuzzleCore_01...
-[2019.02.14-18.33.58:586][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_MuzzleCore_01.SM_MuzzleCore_01
-[2019.02.14-18.33.59:961][812]LogTexture: Display: Building textures: HexaShield_TopRing1 (RGBA16F, 60X91)
-[2019.02.14-18.33.59:961][812]LogTexture: Display: Building textures: T_MFSpark_01 (DXT1, 2048X2048)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_MidRing1 (RGBA16F, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_MidRing1_Normals (BGRA8, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_TopRing1_Normals (BGRA8, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing2_Normals (BGRA8, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: T_MFBigSpark_01 (DXT1, 2048X2048)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing2 (RGBA16F, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_Top1 (RGBA16F, 10X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: T_LParticle_Nebula_Masks_03 (DXT1, 512X512)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_Top1_Normals (BGRA8, 10X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: T_HexaMasks_01 (DXT1, 1024X1024)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: T_NoiseNormal_8 (BC5, 512X512)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_Bottom1_Normals (BGRA8, 10X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_Bottom1 (RGBA16F, 10X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing1b_Normals (BGRA8, 50X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing1 (RGBA16F, 60X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing1b (RGBA16F, 50X91)
-[2019.02.14-18.33.59:962][812]LogTexture: Display: Building textures: HexaShield_BottomRing1_Normals (BGRA8, 60X91)
-[2019.02.14-18.34.00:067][812]LogMaterial: Display: Missing cached shader map for material M_MuzzleFlash1_01, compiling. 
-[2019.02.14-18.34.00:204][812]LogMaterial: Display: Missing cached shader map for material M_MuzzleFlash1_01, compiling. 
-[2019.02.14-18.34.00:229][812]LogShaderCompilers: Display: Shaders left to compile 51
-[2019.02.14-18.34.00:229][812]LogShaderCompilers: Display: Shaders left to compile 41
-[2019.02.14-18.34.00:229][812]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.02.14-18.34.00:229][812]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.02.14-18.34.00:232][812]LogMaterial: Display: Missing cached shader map for material M_MuzzleFlash1_01, compiling. 
-[2019.02.14-18.34.00:257][812]LogMaterial: Display: Missing cached shader map for material M_Basic_Dots, compiling. 
-[2019.02.14-18.34.00:293][812]LogStaticMesh: Building static mesh SM_HexaShield_TopRing2...
-[2019.02.14-18.34.00:295][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_TopRing2.SM_HexaShield_TopRing2
-[2019.02.14-18.34.00:298][812]LogStaticMesh: Building static mesh SM_HexaShield_TopRing1...
-[2019.02.14-18.34.00:299][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_TopRing1.SM_HexaShield_TopRing1
-[2019.02.14-18.34.00:300][812]LogStaticMesh: Building static mesh SM_HexaShield_Top1...
-[2019.02.14-18.34.00:300][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_Top1.SM_HexaShield_Top1
-[2019.02.14-18.34.00:304][812]LogStaticMesh: Building static mesh SM_HexaShield_MidRing1...
-[2019.02.14-18.34.00:306][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_MidRing1.SM_HexaShield_MidRing1
-[2019.02.14-18.34.00:310][812]LogStaticMesh: Building static mesh SM_HexaShield_BottomRing2...
-[2019.02.14-18.34.00:311][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_BottomRing2.SM_HexaShield_BottomRing2
-[2019.02.14-18.34.00:313][812]LogStaticMesh: Building static mesh SM_HexaShield_BottomRing1b...
-[2019.02.14-18.34.00:314][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_BottomRing1b.SM_HexaShield_BottomRing1b
-[2019.02.14-18.34.00:315][812]LogStaticMesh: Building static mesh SM_HexaShield_BottomRing1...
-[2019.02.14-18.34.00:317][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_BottomRing1.SM_HexaShield_BottomRing1
-[2019.02.14-18.34.00:319][812]LogStaticMesh: Building static mesh SM_HexaShield_Bottom1...
-[2019.02.14-18.34.00:319][812]LogStaticMesh: Built static mesh [0.00s] /Game/Particles/AssetsForParticles/SM_HexaShield_Bottom1.SM_HexaShield_Bottom1
-[2019.02.14-18.34.00:334][812]LogMaterial: Display: Missing cached shader map for material M_HexaField_01, compiling. 
-[2019.02.14-18.34.00:433][812]LogMaterial: Display: Missing cached shader map for material M_UmgCircleBar, compiling. 
-[2019.02.14-18.34.00:469][812]LogMaterial: Display: Missing cached shader map for material M_UmgCircleBar, compiling. 
-[2019.02.14-18.34.01:042][812]LogAIModule: Creating AISystem for world BigTerrainTesting
-[2019.02.14-18.34.01:125][812]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting
-[2019.02.14-18.34.01:172][812]Cmd: MAP LOAD FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.14-18.34.01:173][812]LightingResults: New page: Lighting Build
-[2019.02.14-18.34.01:173][812]LoadErrors: New page: Loading map: BigTerrainTesting.umap
-[2019.02.14-18.34.01:175][812]MapCheck: New page: Map Check
-[2019.02.14-18.34.01:175][812]LightingResults: New page: Lighting Build
-[2019.02.14-18.34.03:316][812]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.14-18.34.03:433][812]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.14-18.34.03:434][812]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.217ms to complete.
-[2019.02.14-18.34.03:434][812]LogFileHelpers: Loading map 'BigTerrainTesting' took 2.262
-[2019.02.14-18.34.05:839][919]LogShaderCompilers: Display: Shaders left to compile 231
-[2019.02.14-18.34.05:898][922]LogShaderCompilers: Display: Shaders left to compile 221
-[2019.02.14-18.34.06:632][962]LogShaderCompilers: Display: Shaders left to compile 211
-[2019.02.14-18.34.06:811][972]LogShaderCompilers: Display: Shaders left to compile 201
-[2019.02.14-18.34.06:880][976]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.14-18.34.06:942][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
-[2019.02.14-18.34.06:942][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.14-18.34.09:497][976]LogShaderCompilers: Display: Shaders left to compile 191
-[2019.02.14-18.34.10:509][976]LogShaderCompilers: Display: Shaders left to compile 181
-[2019.02.14-18.34.11:406][976]LogShaderCompilers: Display: Shaders left to compile 171
-[2019.02.14-18.34.11:519][976]LogShaderCompilers: Display: Shaders left to compile 161
-[2019.02.14-18.34.11:937][976]LogSlate: Window 'Message' being destroyed
-[2019.02.14-18.34.14:147][ 97]LogShaderCompilers: Display: Shaders left to compile 151
-[2019.02.14-18.34.15:580][177]LogShaderCompilers: Display: Shaders left to compile 141
-[2019.02.14-18.34.15:799][187]LogShaderCompilers: Display: Shaders left to compile 131
-[2019.02.14-18.34.18:676][347]LogShaderCompilers: Display: Shaders left to compile 121
-[2019.02.14-18.34.18:716][349]LogEditorViewport: Clicking on Actor (LMB): Pod_Sphere_Collider_C (Pod_Sphere_Collider2)
-[2019.02.14-18.34.20:473][410]LogShaderCompilers: Display: Shaders left to compile 111
-[2019.02.14-18.34.21:285][440]LogShaderCompilers: Display: Shaders left to compile 101
-[2019.02.14-18.34.21:995][467]LogShaderCompilers: Display: Shaders left to compile 91
-[2019.02.14-18.34.24:266][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.14-18.34.24:369][563]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/MeshTesting.MeshTesting
-[2019.02.14-18.34.25:397][563]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 117 classes and 0 folders.
-[2019.02.14-18.34.26:884][563]LogShaderCompilers: Display: Shaders left to compile 81
-[2019.02.14-18.34.26:885][563]LogShaderCompilers: Display: Shaders left to compile 71
-[2019.02.14-18.34.27:036][563]LogShaderCompilers: Display: Shaders left to compile 61
-[2019.02.14-18.34.27:166][563]LogShaderCompilers: Display: Shaders left to compile 51
-[2019.02.14-18.34.27:166][563]LogSlate: Took 0.013781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.02.14-18.34.27:323][564]LogSlate: Took 0.007189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.02.14-18.34.29:510][664]LogShaderCompilers: Display: Shaders left to compile 41
-[2019.02.14-18.34.30:347][707]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.02.14-18.34.32:339][803]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.02.14-18.34.33:297][841]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.02.14-18.34.33:606][848]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.02.14-18.34.47:658][233]BlueprintLog: New page: Compile MeshTesting
-[2019.02.14-18.34.50:728][428]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.14-18.34.50:761][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
-[2019.02.14-18.34.50:761][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.14-18.34.50:762][428]PIE: New page: PIE session: BigTerrainTesting (Feb 14, 2019, 8:34:50 PM)
-[2019.02.14-18.34.50:776][428]LogPlayLevel: Creating play world package: /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting
-[2019.02.14-18.34.50:872][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096950s)
-[2019.02.14-18.34.50:873][428]LogAIModule: Creating AISystem for world BigTerrainTesting
-[2019.02.14-18.34.50:874][428]LogPlayLevel: PIE: World Init took: (0.001421s)
-[2019.02.14-18.34.50:874][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting to /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting.BigTerrainTesting (0.098811s)
-[2019.02.14-18.34.51:016][428]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.14-18.34.51:039][428]LogInit: FAudioDevice initialized.
-[2019.02.14-18.34.51:046][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.34.51:090][428]LogLoad: Game class is 'RaceGameMode_C'
-[2019.02.14-18.34.51:095][428]LogWorld: Bringing World /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting.BigTerrainTesting up for play (max tick rate 0) at 2019.02.14-19.34.51
-[2019.02.14-18.34.51:096][428]LogWorld: Bringing up level for play took: 0.005193
-[2019.02.14-18.34.51:117][428]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.02.14-18.34.51:123][428]PIE: Play in editor start time for /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting -0.557
-[2019.02.14-18.34.51:123][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
-[2019.02.14-18.34.51:167][428]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
-[2019.02.14-18.34.58:089][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
-[2019.02.14-18.34.58:089][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.34.58:119][ 65]LogSlate: Window 'PodRacers Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.14-18.34.58:156][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.14-18.34.58:157][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
-[2019.02.14-18.34.58:227][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.02.14-18.34.59:589][204]LogEditorViewport: Clicking on Actor (LMB): Pod_Sphere_Collider_C (Pod_Sphere_Collider2)
-[2019.02.14-18.35.02:416][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.14-18.35.06:648][723]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/BigTerrainTesting9E65382848ED8AA401015582C1EA9204.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap'
-[2019.02.14-18.35.06:719][723]LogFileHelpers: Saving map 'BigTerrainTesting' took 0.623
-[2019.02.14-18.35.06:732][723]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.MeshTesting_C_0.FrontRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.06:732][723]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.MeshTesting_C_0.FrontLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.06:732][723]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.MeshTesting_C_0.BackLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.06:732][723]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.MeshTesting_C_0.BackRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.06:753][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MeshTesting" FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Blueprints/MeshTesting.uasset" SILENT=true
-[2019.02.14-18.35.06:875][723]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/MeshTesting054BC6EE4AAF4983DDDBDEA5798E6233.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Blueprints/MeshTesting.uasset'
-[2019.02.14-18.35.20:155][981]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.Pod_v2_C_0.FrontRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:155][981]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.Pod_v2_C_0.FrontLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:155][981]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.Pod_v2_C_0.BackLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:155][981]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.Pod_v2_C_0.BackRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:177][982]PIE: Warning: Constraint in '/Engine/Transient.World_3:PersistentLevel.Pod_Sphere_Collider_C_0.Sphere_Mesh_Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:204][983]PIE: Warning: Constraint in '/Engine/Transient.World_4:PersistentLevel.POD_BASE_HUD_C_0.FrontRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:204][983]PIE: Warning: Constraint in '/Engine/Transient.World_4:PersistentLevel.POD_BASE_HUD_C_0.FrontLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:204][983]PIE: Warning: Constraint in '/Engine/Transient.World_4:PersistentLevel.POD_BASE_HUD_C_0.BackLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:204][983]PIE: Warning: Constraint in '/Engine/Transient.World_4:PersistentLevel.POD_BASE_HUD_C_0.BackRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:230][984]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.POD_BASE_C_0.FrontRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:230][984]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.POD_BASE_C_0.FrontLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:230][984]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.POD_BASE_C_0.BackLeftCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.20:230][984]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.POD_BASE_C_0.BackRightCon' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.35.30:569][542]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.14-18.35.33:660][542]LogSlate: Window 'Delete Assets' being destroyed
-[2019.02.14-18.35.44:014][953]LogSlate: Window 'Delete Assets' being destroyed
-[2019.02.14-18.35.47:769][172]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/BigTerrainTestingC22714D74D9F892951A4C7925FE80094.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap'
-[2019.02.14-18.35.47:838][172]LogFileHelpers: Saving map 'BigTerrainTesting' took 0.540
-[2019.02.14-18.35.52:044][492]LogEditorViewport: Clicking on Actor (LMB): POD_BASE_C (POD_BASE)
-[2019.02.14-18.35.54:135][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.14-18.36.03:093][135]LogEditorViewport: Clicking on Actor (LMB): Pod_Sphere_Collider_C (Pod_Sphere_Collider2)
-[2019.02.14-18.36.06:162][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.14-18.36.25:947][662]PIE: Warning: Constraint in '/Engine/Transient.World_6:PersistentLevel.Pod_Sphere_Collider_HUD_PROTOTYPE_C_0.Sphere_Mesh_Constraint' attempting to create a joint between objects that are both static.  No joint created.
-[2019.02.14-18.36.28:166][784]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/BigTerrainTesting6906D8374545B92FFCC501A8D301BC4D.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap'
-[2019.02.14-18.36.28:481][784]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/BigTerrainTesting_BuiltData0203B6214B4212E28219A180E947FC19.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting_BuiltData.uasset'
-[2019.02.14-18.36.33:831][180]LogLinker: Warning: Can't find file '/Game/Scenes/Hud/HUD_BuiltData'
-[2019.02.14-18.36.33:832][180]LogLinker: Warning: Can't find file for asset '/Game/Scenes/Hud/HUD_BuiltData' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap.
-[2019.02.14-18.36.33:832][180]LoadErrors: Error: /Game/Scenes/Hud/HUD : Can't find file for asset. /Game/Scenes/Hud/HUD_BuiltData
-[2019.02.14-18.36.33:847][180]LogLinker: Warning: Can't find file '/Game/Scenes/Hud/HUD_BuiltData'
-[2019.02.14-18.36.33:847][180]LogLinker: Warning: Can't find file for asset '/Game/Scenes/Hud/HUD_BuiltData' while loading ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap.
-[2019.02.14-18.36.33:849][180]LogLinker: Warning: Can't find file '/Game/Scenes/Hud/HUD_BuiltData'
-[2019.02.14-18.36.33:850][180]LogLinker: Warning: Can't find file for asset '/Game/Scenes/Hud/HUD_BuiltData' while loading NULL.
-[2019.02.14-18.36.33:850][180]LogLinker: Warning: Can't find file '/Game/Scenes/Hud/HUD_BuiltData'
-[2019.02.14-18.36.33:850][180]LogLinker: Warning: Can't find file for asset '/Game/Scenes/Hud/HUD_BuiltData' while loading NULL.
-[2019.02.14-18.36.34:099][180]LogLinker: Warning: Can't find file '/Game/Scenes/Hud/HUD_BuiltData'
-[2019.02.14-18.36.34:099][180]LoadErrors: Failed to load /Game/Scenes/Hud/HUD_BuiltData.HUD_BuiltData Referenced by PersistentLevel
-[2019.02.14-18.36.34:099][180]LogLinker: Warning: Can't find file for asset '/Game/Scenes/Hud/HUD_BuiltData' while loading NULL.
-[2019.02.14-18.36.34:567][180]LogAIModule: Creating AISystem for world HUD
-[2019.02.14-18.36.34:677][180]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/Hud/HUD.HUD
-[2019.02.14-18.36.36:234][180]LogSlate: Window 'Save Content' being destroyed
-[2019.02.14-18.36.36:324][180]LogSavePackage: Moving '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Pod_Sphere_Collider_HUD_PROTOTYP9858543649DC56A8815DF0906FF92889.tmp' to '../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Blueprints/Pod_Sphere_Collider_HUD_PROTOTYPE.uasset'
-[2019.02.14-18.36.36:341][180]Cmd: MAP LOAD FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Hud/HUD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.14-18.36.36:341][180]LightingResults: New page: Lighting Build
-[2019.02.14-18.36.36:342][180]LoadErrors: New page: Loading map: HUD.umap
-[2019.02.14-18.36.36:369][180]MapCheck: New page: Map Check
-[2019.02.14-18.36.36:369][180]LightingResults: New page: Lighting Build
-[2019.02.14-18.36.52:591][180]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.14-18.36.52:664][180]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.14-18.36.52:669][180]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5.027ms to complete.
-[2019.02.14-18.36.52:669][180]LogFileHelpers: Loading map 'HUD' took 16.329
-[2019.02.14-18.36.55:546][432]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.02.14-18.36.55:576][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
-[2019.02.14-18.36.55:576][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.02.14-18.36.55:577][432]PIE: New page: PIE session: HUD (Feb 14, 2019, 8:36:55 PM)
-[2019.02.14-18.36.55:577][432]LogPlayLevel: Creating play world package: /Game/Scenes/Hud/UEDPIE_0_HUD
-[2019.02.14-18.36.56:549][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.972411s)
-[2019.02.14-18.36.56:550][432]LogAIModule: Creating AISystem for world HUD
-[2019.02.14-18.36.56:550][432]LogPlayLevel: PIE: World Init took: (0.001115s)
-[2019.02.14-18.36.56:550][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Hud/HUD.HUD to /Game/Scenes/Hud/UEDPIE_0_HUD.HUD (0.973909s)
-[2019.02.14-18.36.56:603][432]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.02.14-18.36.56:619][432]LogInit: FAudioDevice initialized.
-[2019.02.14-18.36.56:625][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.36.56:666][432]LogLoad: Game class is 'RaceGameMode_C'
-[2019.02.14-18.36.56:697][432]LogWorld: Bringing World /Game/Scenes/Hud/UEDPIE_0_HUD.HUD up for play (max tick rate 0) at 2019.02.14-19.36.56
-[2019.02.14-18.36.56:699][432]LogWorld: Bringing up level for play took: 0.030773
-[2019.02.14-18.36.56:717][432]PIE: Play in editor start time for /Game/Scenes/Hud/UEDPIE_0_HUD 1.036
-[2019.02.14-18.36.56:717][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
-[2019.02.14-18.37.14:321][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
-[2019.02.14-18.37.14:322][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.14-18.37.14:369][992]LogSlate: Window 'PodRacers Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.02.14-18.37.14:429][992]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.02.14-18.37.14:429][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Hud/HUD.HUD:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD' with GeneratedClass '/Game/Scenes/Hud/HUD.HUD_C' with ClassGeneratedBy '/Game/Scenes/Hud/HUD.HUD:PersistentLevel.HUD'
-[2019.02.14-18.37.14:538][993]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.02.14-18.37.23:740][904]LogSlate: Window 'PodRacers - Unreal Editor' being destroyed
-[2019.02.14-18.37.23:741][904]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.14-18.37.23:988][905]Cmd: QUIT_EDITOR
-[2019.02.14-18.37.24:385][905]LogExit: Preparing to exit.
-[2019.02.14-18.37.25:296][905]LogExit: Editor shut down
-[2019.02.14-18.37.25:297][905]LogExit: Transaction tracking system shut down
-[2019.02.14-18.37.25:738][905]LogExit: Object subsystem successfully closed.
-[2019.02.14-18.37.25:756][905]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.02.14-18.37.25:764][905]LogD3D11RHI: Shutdown
-[2019.02.14-18.37.25:765][905]LogD3D11RHI: CleanupD3DDevice
-[2019.02.14-18.37.25:769][905]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (630)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module Voice (628)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module BlueprintGraph (626)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module MeshBuilder (624)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (622)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module SceneOutliner (620)
-[2019.02.14-18.37.25:804][905]LogModuleManager: Shutting down and abandoning module AddContentDialog (618)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module WidgetCarousel (617)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module EditorWidgets (614)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module CollectionManager (612)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module BspMode (594)
-[2019.02.14-18.37.25:805][905]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module SessionServices (536)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
-[2019.02.14-18.37.25:806][905]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
-[2019.02.14-18.37.25:807][905]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2019.02.14-18.37.26:772][905]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2019.02.14-18.37.26:773][905]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2019.02.14-18.37.26:828][905]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2019.02.14-18.37.26:829][905]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2019.02.14-18.37.26:829][905]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2019.02.14-18.37.26:829][905]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2019.02.14-18.37.26:829][905]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2019.02.14-18.37.26:834][905]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2019.02.14-18.37.26:834][905]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module OutputLog (434)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module GammaUI (432)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module Documentation (430)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module MovieScene (426)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
-[2019.02.14-18.37.26:835][905]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module PortalServices (418)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module AIModule (412)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
-[2019.02.14-18.37.26:836][905]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
-[2019.02.14-18.37.26:838][905]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2019.02.14-18.37.26:866][905]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2019.02.14-18.37.26:867][905]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
-[2019.02.14-18.37.26:870][905]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
-[2019.02.14-18.37.26:871][905]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
-[2019.02.14-18.37.26:871][905]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
-[2019.02.14-18.37.26:871][905]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.02.14-18.37.26:871][905]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.02.14-18.37.26:972][905]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.02.14-18.37.27:073][905]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.02.14-18.37.27:074][905]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.02.14-18.37.27:074][905]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.02.14-18.37.27:074][905]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.02.14-18.37.27:074][905]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
-[2019.02.14-18.37.27:075][905]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
-[2019.02.14-18.37.27:076][905]LogModuleManager: Shutting down and abandoning module Media (241)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module Overlay (230)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module VREditor (226)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module UMG (212)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module Sequencer (210)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module MessageLog (207)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module Slate (200)
-[2019.02.14-18.37.27:082][905]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2019.02.14-18.37.27:084][905]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
-[2019.02.14-18.37.27:116][905]LogDerivedDataCache: Shutdown
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module XGEController (158)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
-[2019.02.14-18.37.27:116][905]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
-[2019.02.14-18.37.27:117][905]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
-[2019.02.14-18.37.27:118][905]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2019.02.14-18.37.27:118][905]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2019.02.14-18.37.27:119][905]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
-[2019.02.14-18.37.27:119][905]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.02.14-18.37.27:125][905]LogHMD: Freeing OpenVRDLLHandle.
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.02.14-18.37.27:125][905]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.02.14-18.37.27:126][905]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.02.14-18.37.27:126][905]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.02.14-18.37.27:153][905]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.02.14-18.37.27:153][905]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.02.14-18.37.27:154][905]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8E0FE73B-44AF-631B-2633-7D8DC1FF063A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=c66013d441af5b485eda61b22a966358%7Cb5d37b8de0e04c29a214378cdef482f4%7Cff92c618-7f51-4493-a1d7-934257b1afbe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.02.14-18.37.27:177][905]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.02.14-18.37.27:178][905]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.02.14-18.37.27:178][905]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.02.14-18.37.27:181][905]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.02.14-18.37.27:187][905]LogExit: Exiting.
-[2019.02.14-18.37.27:222][905]Log file closed, 02/14/19 19:37:27
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.15-19.41.28:608][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.15-19.41.28:609][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:609][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.15-19.41.28:616][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.15-19.41.28:617][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.15-19.41.28:617][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.15-19.41.28:635][  0]LogHAL: Display: Platform has ~ 8 GB [8525651968 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.15-19.41.28:635][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.15-19.41.28:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.15-19.41.28:635][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Scalability.ini]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.15-19.41.28:636][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.15-19.41.28:636][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Config/Windows/Engine.ini]
+[2019.02.15-19.41.28:636][  0]LogInit: Computer: DESKTOP-44G0LU4
+[2019.02.15-19.41.28:636][  0]LogInit: User: Jordi
+[2019.02.15-19.41.28:636][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.15-19.41.28:636][  0]LogInit: High frequency timer resolution =3.312642 MHz
+[2019.02.15-19.41.28:637][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.15-19.41.28:637][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.15-19.41.28:637][  0]LogMemory: Process Physical Memory: 102.86 MB used, 102.86 MB peak
+[2019.02.15-19.41.28:637][  0]LogMemory: Process Virtual Memory: 89.89 MB used, 89.89 MB peak
+[2019.02.15-19.41.28:637][  0]LogMemory: Physical Memory: 4198.71 MB used,  3931.98 MB free, 8130.70 MB total
+[2019.02.15-19.41.28:637][  0]LogMemory: Virtual Memory: 4646.28 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.02.15-19.41.28:661][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.15-19.41.28:661][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.02.15-19.41.29:111][  0]LogStreaming: Display: Took  0.451s to InitEngineTextLocalization.
+[2019.02.15-19.41.29:112][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.15-19.41.29:153][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.15-19.41.29:153][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.15-19.41.29:395][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2019.02.15-19.41.29:395][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.15-19.41.29:470][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2019.02.15-19.41.29:470][  0]LogD3D11RHI:       8031/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.15-19.41.29:472][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.15-19.41.29:472][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.15-19.41.29:472][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.15-19.41.29:479][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.15-19.41.29:479][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.15-19.41.29:479][  0]LogWindows: EnumDisplayDevices:
+[2019.02.15-19.41.29:480][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2019.02.15-19.41.29:480][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2019.02.15-19.41.29:480][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.02.15-19.41.29:481][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.02.15-19.41.29:481][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.15-19.41.29:481][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2019.02.15-19.41.29:481][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.15-19.41.29:481][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.15-19.41.29:481][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.02.15-19.41.29:539][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.15-19.41.29:561][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.15-19.41.30:020][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.15-19.41.30:035][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.15-19.41.30:050][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.15-19.41.30:064][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.15-19.41.30:078][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.15-19.41.30:093][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.15-19.41.30:107][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.15-19.41.30:122][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.15-19.41.30:129][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:207][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.15-19.41.30:208][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.15-19.41.30:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.15-19.41.30:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.15-19.41.30:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.15-19.41.30:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.15-19.41.30:308][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.15-19.41.30:320][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.15-19.41.30:332][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.15-19.41.30:346][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.15-19.41.30:392][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.15-19.41.30:392][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.15-19.41.30:392][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.15-19.41.30:476][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Intermediate/Shaders/WorkingDirectory/9508/).
+[2019.02.15-19.41.30:476][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordi/AppData/Local/Temp/UnrealShaderWorkingDir/609DACDB437D2D1A451598891ADBB175/'.
+[2019.02.15-19.41.30:479][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.15-19.41.30:480][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.15-19.41.30:480][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.15-19.41.31:003][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.15-19.41.31:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.15-19.41.31:109][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.15-19.41.31:109][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.15-19.41.31:109][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.15-19.41.31:121][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.15-19.41.31:121][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.15-19.41.31:121][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.15-19.41.31:146][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.15-19.41.31:147][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.15-19.41.31:148][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.15-19.41.31:237][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2019.02.15-19.41.31:587][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.15-19.41.31:757][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.15-19.41.31:764][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.15-19.41.31:764][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.15-19.41.31:764][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.15-19.41.31:764][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.15-19.41.31:780][  0]LogNetVersion: PodRacers 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1787698366)
+[2019.02.15-19.41.32:282][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.061844 seconds
+[2019.02.15-19.41.32:293][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.15-19.41.32:293][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.15-19.41.32:293][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.15-19.41.33:229][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.15-19.41.33:242][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.15-19.41.33:959][  0]SourceControl: Source control is disabled
+[2019.02.15-19.41.33:959][  0]SourceControl: Source control is disabled
+[2019.02.15-19.41.33:961][  0]SourceControl: Source control is disabled
+[2019.02.15-19.41.33:962][  0]SourceControl: Source control is disabled
+[2019.02.15-19.41.34:147][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.15-19.41.34:275][  0]LogOcInput: OculusInput pre-init called
+[2019.02.15-19.41.34:420][  0]LogEngine: Initializing Engine...
+[2019.02.15-19.41.34:421][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2019.02.15-19.41.34:422][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.15-19.41.34:422][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.15-19.41.34:422][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.15-19.41.34:422][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.15-19.41.34:686][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.15-19.41.34:713][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.15-19.41.34:746][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.15-19.41.34:769][  0]LogInit: FAudioDevice initialized.
+[2019.02.15-19.41.34:769][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.15-19.41.34:950][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/Jordi/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.15-19.41.34:974][  0]LogInit: Texture streaming: Enabled
+[2019.02.15-19.41.34:998][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.15-19.41.35:018][  0]LogInit: Transaction tracking system initialized
+[2019.02.15-19.41.35:056][  0]BlueprintLog: New page: Editor Load
+[2019.02.15-19.41.35:174][  0]LocalizationService: Localization service is disabled
+[2019.02.15-19.41.35:689][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.15-19.41.35:690][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.15-19.41.35:690][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.15-19.41.35:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.15-19.41.35:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.15-19.41.35:690][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/' took 0.03s
+[2019.02.15-19.41.35:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.15-19.41.35:690][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.15-19.41.35:859][  0]SourceControl: Source control is disabled
+[2019.02.15-19.41.35:860][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.15-19.41.35:865][  0]LightingResults: New page: Lighting Build
+[2019.02.15-19.41.35:870][  0]MapCheck: New page: Map Check
+[2019.02.15-19.41.35:870][  0]LightingResults: New page: Lighting Build
+[2019.02.15-19.41.36:827][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.15-19.41.36:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.15-19.41.36:864][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.15-19.41.36:864][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
+[2019.02.15-19.41.36:865][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.005
+[2019.02.15-19.41.36:992][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.41.37:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.41.37:007][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.41.37:015][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.41.37:032][  0]LogCollectionManager: Loaded 0 collections in 0.002912 seconds
+[2019.02.15-19.41.37:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Saved/Collections/' took 0.01s
+[2019.02.15-19.41.37:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Developers/Jordi/Collections/' took 0.00s
+[2019.02.15-19.41.37:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Collections/' took 0.00s
+[2019.02.15-19.41.37:062][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.15-19.41.37:072][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2651 classes and 620 folders.
+[2019.02.15-19.41.37:086][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.15-19.41.37:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:156][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:162][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:175][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:202][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:208][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:313][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:319][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:325][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:330][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.15-19.41.37:510][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.15-19.41.37:524][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.15-19.41.37:676][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.15-19.41.37:679][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.15-19.41.37:692][  0]LogSlate: Took 0.006960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.15-19.41.37:836][  0]LogRenderer: Reallocating scene render targets to support 1132x756 Format 10 NumSamples 1 (Frame:1).
+[2019.02.15-19.41.38:033][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.15-19.41.38:033][  0]LogLoad: (Engine Initialization) Total time: 11.93 seconds
+[2019.02.15-19.41.38:033][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.15-19.41.38:120][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.15-19.41.38:163][  0]LogSlate: Took 0.005034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.15-19.41.38:181][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jordi/Documents/Unreal Projects/PodRacers/Content/' took 0.12s
+[2019.02.15-19.41.38:218][  1]LogAssetRegistry: Asset discovery search completed in 7.0034 seconds
+[2019.02.15-19.41.38:219][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.15-19.41.38:220][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000095 seconds (updated 0 objects)
+[2019.02.15-19.41.57:651][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.15-19.42.03:202][412]LogAIModule: Creating AISystem for world BigTerrainTesting
+[2019.02.15-19.42.03:240][412]LogAssetEditorManager: Opening Asset editor for World /Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting
+[2019.02.15-19.42.03:264][412]Cmd: MAP LOAD FILE="../../../../../../Users/Jordi/Documents/Unreal Projects/PodRacers/Content/Scenes/Levels/BigTerrainTesting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.15-19.42.03:264][412]LightingResults: New page: Lighting Build
+[2019.02.15-19.42.03:265][412]LoadErrors: New page: Loading map: BigTerrainTesting.umap
+[2019.02.15-19.42.03:266][412]MapCheck: New page: Map Check
+[2019.02.15-19.42.03:266][412]LightingResults: New page: Lighting Build
+[2019.02.15-19.42.04:142][412]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.15-19.42.04:196][412]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.15-19.42.04:197][412]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2019.02.15-19.42.04:197][412]LogFileHelpers: Loading map 'BigTerrainTesting' took 0.933
+[2019.02.15-19.42.07:304][752]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.02.15-19.42.07:327][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
+[2019.02.15-19.42.07:328][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.15-19.42.07:328][752]PIE: New page: PIE session: BigTerrainTesting (Feb 15, 2019, 9:42:07 PM)
+[2019.02.15-19.42.07:341][752]LogPlayLevel: Creating play world package: /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting
+[2019.02.15-19.42.07:427][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085268s)
+[2019.02.15-19.42.07:428][752]LogAIModule: Creating AISystem for world BigTerrainTesting
+[2019.02.15-19.42.07:428][752]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.02.15-19.42.07:428][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting to /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting.BigTerrainTesting (0.086633s)
+[2019.02.15-19.42.07:480][752]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.15-19.42.07:498][752]LogInit: FAudioDevice initialized.
+[2019.02.15-19.42.07:506][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.42.07:554][752]LogLoad: Game class is 'RaceGameMode_C'
+[2019.02.15-19.42.07:560][752]LogWorld: Bringing World /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting.BigTerrainTesting up for play (max tick rate 0) at 2019.02.15-20.42.07
+[2019.02.15-19.42.07:563][752]LogWorld: Bringing up level for play took: 0.006951
+[2019.02.15-19.42.07:587][752]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.02.15-19.42.07:594][752]PIE: Play in editor start time for /Game/Scenes/Levels/UEDPIE_0_BigTerrainTesting 1.193
+[2019.02.15-19.42.07:595][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
+[2019.02.15-19.42.07:628][752]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.02.15-19.42.12:061][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
+[2019.02.15-19.42.12:062][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.15-19.42.12:083][259]LogSlate: Window 'PodRacers Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.15-19.42.12:117][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.15-19.42.12:118][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting' with GeneratedClass '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting_C' with ClassGeneratedBy '/Game/Scenes/Levels/BigTerrainTesting.BigTerrainTesting:PersistentLevel.BigTerrainTesting'
+[2019.02.15-19.42.12:172][260]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.15-19.42.13:856][457]LogEditorViewport: Clicking on Actor (LMB): Pod_Sphere_Collider_C (Pod_Sphere_Collider2)
+[2019.02.15-19.42.14:618][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.15-19.42.14:733][535]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Pod_Sphere_Collider.Pod_Sphere_Collider
+[2019.02.15-19.42.15:315][535]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
+[2019.02.15-19.42.16:184][535]LogSlate: Took 0.004300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.15-19.42.18:091][670]LogSlate: Took 0.005549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.15-19.42.18:298][694]LogSlate: Window 'Pod_Sphere_Collider' being destroyed
