@@ -1,7 +1,9 @@
 # PODRACERS
 
 ## Description
-* PodRacers is a frenetic spaceship race game. Charged with speed, abilities and strategies every player will have to beat the opponents and get first to the final line. Currently it is on a development stage, focusing on the AI and internal racing tools for academic purposes.
+* PodRacers is a frenetic spaceship race game. Charged with speed, abilities and strategies every player will have to beat the opponents and get first to the final line.
+
+* Currently it is on a development stage, focusing on the AI and internal racing tools for academic purposes.
 
 * Final Master Project for the La Salle [MVD](https://www.salleurl.edu/es/estudios/master-en-desarrollo-avanzado-de-videojuegos).
 
@@ -14,19 +16,20 @@
 
 4. [Spline AI + game logic & hud animations](https://www.youtube.com/watch?v=-DOyXT_bqfw)
 
-5. [Abilities and ultimates: Pod 1 (exploding mine + repelent sphere)](https://www.youtube.com/watch?v=2EnDNp89AME)
+5. [Abilities and ultimates: Pod 1 (exploding mine + radial force sphere)](https://www.youtube.com/watch?v=2EnDNp89AME)
 
 6. [Abilities and ultimates: Pod 2 (blink/tp + air blast)](https://www.youtube.com/watch?v=dRjgJe9ry44)
 
 7. [Abilities and ultimates: Pod 3 (missile + invisibility cloak)](https://www.youtube.com/watch?v=L2CjZWWYXAE)
 
 ## Screenshots
-*Coming soon...*
+![InGame Screenshot](https://imgur.com/2Rr3Ppg.jpg)
+
+![Sound and AI settings](https://imgur.com/lcEaKnx.jpg)
+
+![Spline BP Tools](https://imgur.com/lSePbJ2.jpg)
 
 ## Authors
-* Programmers
-  * [Jordi Roig](https://github.com/jroig24)
-  * [David Gimeno](https://github.com/daliife)
-* Artists / Modelers
-  * [Pau Sentelles]()
-  * [Mario Corrales]()
+* Developers: [Jordi Roig](https://github.com/jroig24) and [David Gimeno](https://github.com/daliife).
+
+* Artists / Modelers: Pau Sentelles, Mario Corrales and Victor Zudaire.
